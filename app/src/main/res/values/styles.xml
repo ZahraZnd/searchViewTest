@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/login_page_start_color</item>
+        <item name="colorPrimaryDark">@color/login_page_end_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/iran_yekan_mobile</item>
+        <item name="fontFamily">@font/iran_yekan_mobile</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/edittexts_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#423B3B</item>
+        <item name="colorControlActivated">#FFC107</item>
+    </style>
+
+    <style name="checkBoxStyle">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#665eff</color>
+    <color name="colorPrimaryDark">#0B0525</color>
+    <color name="colorAccent">#BF2A45</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="login_page_start_color">#2e9e78</color>
+    <color name="login_page_end_color">#29877a</color>
+    <color name="ic_man_gray_color">#A39999</color>
+    <color name="darkBlueBtn">#4839A2</color>
+    <color name="edtColor">#2A2038</color>
+    <color name="yellow">#f2f3ae</color>
+    <color name="blue">#665eff</color>
+    <color name="darkCardBackground">#353a50</color>
+    <color name="darkGreen">#042134</color>
+    <color name="inProgressColor">#5773ff</color>
+    <color name="doneColor">#3497fd</color>
+    <color name="colorDarkBlue">#002c44</color>
+    <color name="colorLightBlue">#7fc4fd</color>
+    <color name="colorTransactionsBlue">#1560a3</color>
+    <color name="colorDarkRed">#b21010</color>
+    <color name="colorLightBrown">#A76920</color>
+    <color name="colorBlueDrawer">#276fbf</color>
+</resources>
