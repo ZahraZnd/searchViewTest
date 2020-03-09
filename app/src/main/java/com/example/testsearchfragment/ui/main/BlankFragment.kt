@@ -13,10 +13,6 @@ import kotlinx.android.synthetic.main.blank_fragment.*
 
 class BlankFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = BlankFragment()
-    }
-
     private lateinit var viewModel: BlankViewModel
 
     override fun onCreateView(
@@ -32,8 +28,11 @@ class BlankFragment : Fragment() {
         val safeArgs: BlankFragmentArgs by navArgs()
         val text = safeArgs.tvText
         tv_arg.text = text
+
+        tv_arg.customSelectionActionModeCallback = CustomActionMenu(tv_arg)
+
+
         viewModel = ViewModelProviders.of(this).get(BlankViewModel::class.java)
-        // TODO: Use the ViewModel
     }
 
 }
